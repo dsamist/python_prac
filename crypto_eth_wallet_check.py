@@ -8,11 +8,12 @@ Account.enable_unaudited_hdwallet_features()
 # Connect to an Ethereum node (you can use an Infura API key)
 #infura_url = "https://mainnet.infura.io/v3/YOUR_INFURA_API_KEY"
 infura_url = "https://mainnet.infura.io/v3/0ae73be5c9e84a42a68e503009fa210f"
+
 web3 = Web3(HTTPProvider(infura_url))
 
 # List of seed phrases
 # Read the seed phrases from a text file
-with open('./Telegram Desktop/seed 6.txt', 'r') as file:
+with open('./Telegram_Desktop/Phrases (4).txt', 'r') as file:
     seed_phrases = [line.strip() for line in file]
         
 # seed_phrases = [
