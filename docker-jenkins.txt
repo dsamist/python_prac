@@ -1,0 +1,1 @@
+docker run -dp 8080:8080 --volume jenkins_home:/var/jenkins_home --name jenkins jenkins/jenkins:latest
