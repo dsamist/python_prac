@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Dev') {
+            steps {
+                //get some cpde from a github repository
+                git 'https://github.com/dsamist/python_prac'
+            }
+        }
+
+        stage('UAT') {
+            steps {
+                //get some code from a github repository
+                git 'https://github.com/dsamist/python_prac'
+        }
+    }
+}
